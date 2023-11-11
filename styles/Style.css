@@ -1,0 +1,193 @@
+/* nav, space between */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.8rem 5rem;
+}
+
+/* nav, logo */
+
+nav img {
+    color: #fff;
+    text-decoration: none;
+    height: 70px;
+}
+
+/* nav-links */
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* nav links a tag hover */
+
+.nav-links a:hover{
+    color: #8C52FF;
+    transition: all 0.3s ease;
+}
+/* nav button has a gradient background and rounded corners  */
+
+nav button {
+    background-color: #8C52FF;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+/* nav button hover */
+
+nav button:hover{
+    background-color: #5CE1E6;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.hero{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/pexels-fauxels-3184405\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    background-position: center center;
+    padding: 10em 6em;
+}
+
+.hero-content{
+  width: 50%;
+}
+
+.hero-content h1{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.7rem;
+  line-height: 1.2em;
+}
+
+.hero-content p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.hero-content button{
+  background-color: #8C52FF;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.hero-content button:hover{
+  background-color: #5CE1E6;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* second section has an image on the left and content on the right */
+
+.second-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
+  padding: 10em 6em;
+}
+
+.second-section img{
+  width: 50%;
+}
+
+.second-section-content{
+  width: 50%;
+}
+
+.second-section-content h1{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1.7rem;
+  margin-top: 1rem;
+  line-height: 1.2em;
+}
+
+.second-section-content p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.second-section-content button{
+  background-color: #8C52FF;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.second-section-content button:hover{
+  background-color: #5CE1E6;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.icon-list{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-bottom: 2.5em;
+  gap: 0.9em;
+}
+
+.icon-list-item{
+  display: flex;
+  align-items: center;
+  gap: 0.9em;
+}
+
+.icon-list-item i{
+  width: 5%;
+}
+
