@@ -363,3 +363,139 @@ nav button:hover{
   color: white;
   transition: all 0.3s ease;
 }
+
+.testimonial-container{
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 3em;
+  padding: 4em 6em;
+}
+
+.testimonial-container img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial-container h2{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1.7rem;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.testimonial-container h2::after{
+  content: "";
+  display: block;
+  width: 80%;
+  height: 7px;
+  background-color: #8C52FF;
+  margin: 0.3em auto;
+  border-radius: 5px;
+}
+
+.testimonial-container p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-container h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.testimonials{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.testimonial{
+  background-color: #5e17eb;
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  box-shadow: 0px 0px 100px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  width: 33%;
+}
+
+.testimonial-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.call-to-action{
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 3em;
+  padding: 4em 6em;
+  margin-top: 3em;
+}
+
+.call-to-action h2{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1.4rem;
+  line-height: 1.2em;
+  
+}
+
+
+
+.call-to-action p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 3em;
+}
+
+.call-to-action button{
+  background-color: #8C52FF;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.call-to-action button:hover{
+  background-color: #5CE1E6;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.call-to-action-content{
+  width: 50%;
+  gap: 50px;
+}
+
+.call-to-action img{
+  height: 40vh;
+  width: 50%;
+  object-fit: cover;
+}
