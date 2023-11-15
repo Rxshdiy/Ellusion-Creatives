@@ -462,7 +462,6 @@ nav button:hover{
 }
 
 
-
 .call-to-action p{
   font-size: 1rem;
   font-weight: 400;
@@ -499,3 +498,107 @@ nav button:hover{
   width: 50%;
   object-fit: cover;
 }
+
+.contact-us-form{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  padding: 4em 6em;
+  margin-top: 3em;
+}
+
+.contact-us-form h2{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0rem;
+  line-height: 1.2em;
+}
+
+.contact-us-form h2::after{
+  content: "";
+  display: block;
+  width: 80%;
+  height: 7px;
+  background-color: #8C52FF;
+  margin: 0.2em auto;
+  border-radius: 5px;
+}
+
+
+.contact-us-form button{
+  background-color: #8C52FF;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.contact-us-form button:hover{
+  background-color: #5CE1E6;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.contact-us-form-content{
+  width: 50%;
+  gap: 50px;
+}
+
+.contact-us-form form{
+  
+}
+
+.contact-us-form form input{
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-us-form form textarea{
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.copyright-section{
+  background-color: #5e17eb;
+  display: flex;
+  white-space: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 6em;
+}
+
+.copyright-section p{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.copyright-section a{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-privacy{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
