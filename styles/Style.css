@@ -442,7 +442,7 @@ nav button:hover{
 }
 
 .call-to-action{
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: row;
 
@@ -494,7 +494,7 @@ nav button:hover{
 }
 
 .call-to-action img{
-  height: 40vh;
+  height: 50vh;
   width: 50%;
   object-fit: cover;
 }
@@ -505,7 +505,7 @@ nav button:hover{
   flex-direction: column;
   align-items: center;
   gap: 3em;
-  padding: 4em 6em;
+  padding: 3em 6em;
   margin-top: 3em;
 }
 
@@ -552,9 +552,6 @@ nav button:hover{
   gap: 50px;
 }
 
-.contact-us-form form{
-  
-}
 
 .contact-us-form form input{
   padding: 10px 20px;
@@ -571,7 +568,8 @@ nav button:hover{
   border-radius: 5px;
   outline: none;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .copyright-section{
