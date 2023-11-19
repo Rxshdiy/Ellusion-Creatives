@@ -8,76 +8,94 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="contact.css" />
     <title>Ellusion Creatives - Home Page</title>
   </head>
   <body>
-    <!-- Nav bar, 1 logo, 1 div that has 4 a tags in it, 1 button that says "Book a call us" -->
-    <nav>
-      <div class="logo">
-        <img src="images/1(1).png" alt="Ellusion Creatives Logo" />
-      </div>
-      <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-      </div>
-      <button>Contact Us</button>
-    </nav>
-    <!-- Hero section. It has 1 h1 tag, 1 p tag, 1 button -->
-    <section class="hero">
+    <div class="hero-section">
       <div class="hero-content">
-        <h1>Transforming Insurance Companies with High-Converting Websites</h1>
+        <h1>Real Estate Web Development Company</h1>
         <p>
-          We specialize in creating websites that drive results for insurance
-          companies. Our expert team combines design and strategy to deliver
-          high-converting websites that attract and retain customers.
+          Elevate your real estate business with Ellusion Creatives, a leading
+          web development agency. Our team combines innovative design and
+          advanced technology to craft bespoke, stylish websites that redefine
+          your online presence.
         </p>
-        <button>Free Consultation</button>
-      </div>
-    </section>
-    <!-- A div container with the class of second section. Image and a div inside the contaner, inside the div is 1 P tag, 1 h1 tag, 1 p tag, 1 div with three icon list items, 1 button -->
-    <div class="second-section">
-      <img
-        src="images/pexels-yan-krukau-7640741.jpg"
-        alt="Image of people in a meeting"
-      />
-      <div class="second-section-content">
-        <p>Why Choose Us?</p>
-        <h2>Tailored website design for insurance companies</h2>
-        <p>
-          Our high-converting website designs are specifically crafted to meet
-          the unique needs of insurance companies. With a focus on user
-          experience and persuasive design, we help you attract and convert more
-          leads.
-        </p>
-        <div class="icon-list">
-          <div class="icon-list-item">
+        <div class="hero-icon-list">
+          <div class="hero-icon">
             <i
-              class="fa-solid fa-camera-retro"
-              style="color: #5e17eb; font-size: 25px"
+              class="fa-regular fa-circle-check"
+              style="color: #ffd700; font-size: 35px"
             ></i>
-            <p>Engage your audience with stunning visuals</p>
+            <p>Industry-Specific Expertise</p>
           </div>
-          <div class="icon-list-item">
+          <div class="hero-icon">
             <i
-              class="fa-solid fa-money-bill-transfer"
-              style="color: #5e17eb; font-size: 25px"
+              class="fa-regular fa-circle-check"
+              style="color: #ffd700; font-size: 35px"
             ></i>
-            <p>Increase conversions with intuitive navigation</p>
+            <p>Optimized Property Presentation/p></p>
           </div>
-          <div class="icon-list-item">
+
+          <div class="hero-icon">
             <i
-              class="fa-solid fa-gauge"
-              style="color: #5e17eb; font-size: 25px"
+              class="fa-regular fa-circle-check"
+              style="color: #ffd700; font-size: 35px"
             ></i>
-            <p>Optimize your site for maximum performance</p>
+            <p>Integration of Cutting-Edge Features</p>
+          </div>
+          <div class="hero-icon">
+            <i
+              class="fa-regular fa-circle-check"
+              style="color: #ffd700; font-size: 35px"
+            ></i>
+            <p>Responsive Design Across Platforms</p>
           </div>
         </div>
-        <button>Book a call</button>
+      </div>
+      <div class="hero-contact-form">
+        <div class="hero-contact-form-heading">
+          <h2>Connect with Us</h2>
+          <p>Get a No Obligation Free Quote</p>
+        </div>
+        <form action="contact.php" method="post">
+          <div class="hero-contact-form-input">
+            <img src="svgs/user.svg" alt="user icon" />
+            <input type="text" name="name" placeholder="Name" />
+          </div>
+          <div class="hero-contact-form-input">
+            <img src="svgs/email.svg" alt="email icon" />
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+
+          <div class="hero-contact-form-input">
+            <img src="svgs/phone.svg" alt="phone icon" />
+            <input type="text" name="phone" placeholder="Phone" />
+          </div>
+          <div class="hero-contact-form-input">
+            <img src="svgs/earth.svg" alt="earth icon" />
+            <input type="text" name="Country" placeholder="Country" />
+          </div>
+          <div class="hero-contact-form-input">
+            <img src="svgs/message.svg" alt="Message icon" />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Requirements"
+            ></textarea>
+          </div>
+          <div class="hero-contact-form-input">
+            <button type="submit" name="submit">Request A Consultation</button>
+          </div>
+        </form>
+        <div class="secured-text">
+          <img src="svgs/Secured-icon.svg" alt="secured icon" />
+          <p>100% Privacy Guaranteed</p>
+        </div>
       </div>
     </div>
-
     <!-- a div container with the class third-section, inside this div container is 2 divs, first div has content in it, second div  has 4 divs inside it -->
     <div class="third-section">
       <div class="third-section-content">
@@ -145,76 +163,6 @@
       </div>
     </div>
 
-    <div class="features-list-section">
-      <!-- 2 divs -->
-      <div class="features-heading">
-        <h2>Websites that Drive Results for Insurance Companies</h2>
-        <p>
-          Our web agency specializes in creating high-converting websites for
-          insurance companies. With our services, you can expect increased lead
-          generation, improved user experience, and mobile responsiveness.
-        </p>
-      </div>
-      <!-- 1 div, inside the div is 3 divs, first div has an icon list of 2 items, 2nd div has an image, 3rd div has an icon list of 2 items -->
-      <div class="features-list">
-        <div class="features-list-item">
-          <div class="features-list-item-icon">
-            <i
-              class="fa-solid fa-user"
-              style="color: #5e17eb; font-size: 35px"
-            ></i>
-            <h3>Lead Generation</h3>
-            <p>
-              Attract more leads and convert them into customers with our
-              strategic website designs.
-            </p>
-          </div>
-          <div class="features-list-item-icon">
-            <i
-              class="fa-solid fa-wand-magic-sparkles"
-              style="color: #5e17eb; font-size: 35px"
-            ></i>
-            <h3>User Experience</h3>
-            <p>
-              Deliver an exceptional user experience that keeps visitors engaged
-              and encourages action.
-            </p>
-          </div>
-        </div>
-        <div class="features-list-item">
-          <img
-            src="images/No image image.png"
-            alt="Image of people in a meeting"
-          />
-        </div>
-        <div class="features-list-item">
-          <div class="features-list-item-icon">
-            <i
-              class="fa-solid fa-mobile-screen"
-              style="color: #5e17eb; font-size: 35px"
-            ></i>
-            <h3>Mobile Responsiveness</h3>
-            <p>
-              Ensure your website looks great and functions seamlessly on all
-              devices and screen sizes.
-            </p>
-          </div>
-
-          <div class="features-list-item-icon">
-            <i
-              class="fa-solid fa-table-columns"
-              style="color: #5e17eb; font-size: 35px"
-            ></i>
-            <h3>A/B Testing</h3>
-            <p>
-              Continuous A/B testing to improve your website's conversion rates
-            </p>
-          </div>
-        </div>
-      </div>
-      <button>Learn more</button>
-    </div>
-
     <div class="testimonial-container">
       <div class="testimonial-heading"><h2>Testimonials</h2></div>
       <div class="testimonials">
@@ -274,33 +222,6 @@
       <img src="images/Business meeting.jpg" alt="" srcset="" />
     </div>
 
-    <footer>
-      <div class="contact-us-form">
-        <h2>Get In Touch</h2>
-        <form action="">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <input type="text" placeholder="Phone" />
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Message"
-          ></textarea>
-          <button>Submit</button>
-        </form>
-      </div>
-      <div class="copyright-section">
-        <div class="copyright">
-          <p>© 2023 Ellusion Creatives. All rights reserved.</p>
-        </div>
-        <div class="footer-privacy">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Use</a>
-        </div>
-      </div>
-    </footer>
     <script
       src="https://kit.fontawesome.com/eebca1a7f7.js"
       crossorigin="anonymous"
