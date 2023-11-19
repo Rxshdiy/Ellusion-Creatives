@@ -12,9 +12,188 @@ a{
   color: black;
 }
 
+/* nav, transparent background. positioned top */
+
+nav{
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  display: flex;
+  padding: 2em 6em;
+  align-items: center;
+  z-index: 1000;
+}
+
+nav img{
+  width: 160px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.hero-section{
+  height: 104vh;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  padding: 4em 6em;
+  /* background images with a gradient to the right. left side is a color with the code #090D7C and transparent as the right color */
+  background: linear-gradient(90deg, rgba(9,13,124,0.8) 0%, rgba(9,13,124,0.8) 35%, rgba(0,212,255,0) 100%), url("../images/Hero-background.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+.hero-content h1{
+  font-size: 56px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.7rem;
+  line-height: 120%;
+}
+
+.hero-content p{
+  font-size: 17px;
+  font-weight: 400;
+  color: #d1d1d1;
+  line-height: 160%;
+  
+}
+
+.hero-icon-list{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5em;
+}
+
+.hero-icon-list p{
+  color: #fff;
+}
+
+.hero-icon{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.hero-icon img{
+  width: 20px;
+  height: 20px;
+}
+
+.hero-contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 20px;
+  
+}
+
+.hero-contact-form-heading{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 7em;
+  gap: 0.3em;
+  align-items: center;
+  background-color: #090d7c;
+  border-radius: 20px 20px 0px 0px;
+  color: #fff;
+  margin-bottom: 0.8em;
+}
+
+.hero-contact-form-heading h2{
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  
+  line-height: 150%;
+}
+
+.hero-contact-form-heading p{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.hero-contact-form input{
+  background-color: #fff;
+  padding: 15px 20px;
+  
+  border: none;
+  width: 320px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.hero-contact-form form{
+  padding: 0em 3em;
+}
+
+.hero-contact-form img{
+  width: 20px;
+  height: 20px;
+}
+
+.hero-contact-form-input{
+  border-bottom: 1px solid #d1d1d1;
+  display: flex;
+  align-items: center;
+  
+}
+
+.hero-contact-form textarea{
+  background-color: #fff;
+  padding: 15px 20px;
+  height: 50px;
+  
+  border: none;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+  resize: none;
+  overflow-y: hidden;
+
+}
 
 
+.hero-contact-form-button{
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 
+.hero-contact-form button{
+  background-color: #60B741;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;;
+  text-transform: capitalize;
+}
 
 /* a div container with 2 divs inside it */
 
@@ -27,6 +206,25 @@ a{
   
 }
 
+.secured-text{
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.secured-text img{
+  width: 20px;
+  height: 20px;
+}
+
+.secured-text p{
+  font-size: 12px;
+  font-weight: 400;
+}
 
 
 .third-section-content{
@@ -44,7 +242,7 @@ a{
 .third-section-content h2{
   font-size: 3rem;
   font-weight: 600;
-  color: #000;
+
   margin-bottom: 1.7rem;
   line-height: 1.2em;
 }
@@ -52,7 +250,7 @@ a{
 .third-section-content p{
   font-size: 1rem;
   font-weight: 400;
-  color: #000;
+
 }
 
 .third-section-content button{
@@ -99,18 +297,18 @@ a{
 
 
 .testimonial-container{
-  height: 95vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
   gap: 3em;
-  padding: 4em 6em;
+  padding: 6em 6em;
 }
 
 .testimonial-container img{
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -118,33 +316,21 @@ a{
 .testimonial-container h2{
   font-size: 3rem;
   font-weight: 600;
-  color: #000;
   margin-bottom: 1.7rem;
   line-height: 1.2em;
   text-align: center;
 }
 
-.testimonial-container h2::after{
-  content: "";
-  display: block;
-  width: 80%;
-  height: 7px;
-  background-color: #8C52FF;
-  margin: 0.3em auto;
-  border-radius: 5px;
-}
 
 .testimonial-container p{
   font-size: 1rem;
   font-weight: 400;
-  color: #fff;
   text-align: center;
 }
 
 .testimonial-container h3{
   font-size: 1.5rem;
   font-weight: 600;
-  color: #fff;
   text-transform: uppercase;
   line-height: 1.2em;
   text-align: center;
@@ -157,13 +343,13 @@ a{
 }
 
 .testimonial{
-  background-color: #5e17eb;
-  padding: 4em 2em;
+  border: 1px solid #090d7c;
+  padding: 3em 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   box-shadow: 0px 0px 100px rgba(0,0,0,0.05);
   border-radius: 10px;
   width: 33%;
@@ -172,7 +358,8 @@ a{
 .testimonial-content{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
+  align-items: center;
 }
 
 .call-to-action{
@@ -189,7 +376,6 @@ a{
 .call-to-action h2{
   font-size: 3rem;
   font-weight: 600;
-  color: #000;
   margin-bottom: 1.4rem;
   line-height: 1.2em;
   
@@ -199,7 +385,6 @@ a{
 .call-to-action p{
   font-size: 1rem;
   font-weight: 400;
-  color: #000;
   margin-bottom: 3em;
 }
 
