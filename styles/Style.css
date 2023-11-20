@@ -367,7 +367,7 @@ nav img{
   flex-direction: column;
   align-items: center;
   gap: 3em;
-  padding: 6em 6em;
+  padding: 6em 6em 2em 6em;
 }
 
 .our-work h2{
@@ -423,6 +423,7 @@ nav img{
   text-align: start;
   margin-bottom: 0.5em;
   padding: 0;
+  margin-top: 1em;
 }
 
 .related-keywords{
@@ -441,61 +442,6 @@ nav img{
 }
 
 
-.call-to-action{
-  height: 70vh;
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-  gap: 3em;
-  padding: 4em 6em;
-  margin-top: 3em;
-}
-
-.call-to-action h2{
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 1.4rem;
-  line-height: 1.2em;
-  
-}
-
-
-.call-to-action p{
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 3em;
-}
-
-.call-to-action button{
-  background-color: #8C52FF;
-  border: none;
-  padding: 10px 30px;
-  color: white;
-  border-radius: 30px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-}
-
-.call-to-action button:hover{
-  background-color: #5CE1E6;
-  color: white;
-  transition: all 0.3s ease;
-}
-
-.call-to-action-content{
-  width: 50%;
-  gap: 50px;
-}
-
-.call-to-action img{
-  height: 50vh;
-  width: 50%;
-  object-fit: cover;
-}
 
 .why-us{
   display: flex;
