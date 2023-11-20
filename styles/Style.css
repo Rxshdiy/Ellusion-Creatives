@@ -511,3 +511,192 @@ nav img{
   color: white;
   transition: all 0.3s ease;
 }
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em 6em;
+  background-color: #090d7c;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2em 0 1em 0;
+}
+
+.footer-logo img{
+  width: 160px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 0 0.2em 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* responsive design for 1024px */
+
+@media (max-width: 1024px) {
+  .hero-section{
+    flex-direction: column;
+    padding: 4em 2em;
+    gap: 0em;
+    height: 105vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(9,13,124,0.8) 0%, rgba(9,13,124,0.8) 35%, rgba(0,212,255,0) 100%), url("../images/Hero-background.jpg");
+  }
+
+  .hero-content{
+    width: 100%;
+  }
+
+  nav{
+    padding: 2em;
+  }
+
+  .hero-content h1{
+    font-size: 40px;
+  }
+
+  .hero-content p{
+    font-size: 14px;
+  }
+
+  .hero-contact-form{
+    width: 100%;
+  }
+
+  .hero-contact-form-heading{
+    padding: 20px 2em;
+  }
+
+  .hero-contact-form-heading h2{
+    font-size: 20px;
+  }
+
+  .hero-contact-form-heading p{
+    font-size: 12px;
+  }
+
+  .hero-contact-form form{
+    padding: 0em 1em;
+  }
+
+  .third-section{
+    flex-direction: column;
+    padding: 0em 2em;
+    gap: 2em;
+    margin: 4em 0;
+  }
+
+  .third-section-content{
+    width: 100%;
+  }
+
+  .third-section-content h2{
+    font-size: 2rem;
+  }
+
+  .third-section-content p{
+    font-size: 1rem;
+  }
+
+  .third-section-content button{
+    font-size: 14px;
+  }
+
+  .third-section-icons{
+    width: 100%;
+  }
+
+  .testimonial-container{
+    padding: 4em 2em;
+    margin: 3em 0;
+  }
+
+  .testimonial-container h2{
+    font-size: 2rem;
+  }
+
+  .testimonial-container p{
+    font-size: 1rem;
+  }
+
+  .testimonials{
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial{
+    width: 45%;
+  }
+
+  .our-work{
+    padding: 4em 2em;
+  }
+
+  .our-work h2{
+    font-size: 2rem;
+  }
+
+  .our-work p{
+    font-size: 1rem;
+  }
+
+  .our-work-content{
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .our-work img{
+    height: 500px;
+  }
+
+  .why-us{
+    padding: 4em 4em;
+  }
+
+
+  .why-us-content-icon{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  .why-us h2{
+    font-size: 2rem;
+    padding: 0 10%;
+  }
+
+  .why-us p{
+    font-size: 1rem;
+  }
+
+  .sticky-text{
+    padding: 0 2em;
+  }
+
+  footer{
+    padding: 2em;
+  }
+}
