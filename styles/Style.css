@@ -203,7 +203,7 @@ nav img{
   justify-content: space-between;
   padding: 0em 6em;
   gap: 4em;
-  
+  margin: 7em 0;
 }
 
 .secured-text{
@@ -254,11 +254,11 @@ nav img{
 }
 
 .third-section-content button{
-  background-color: #8C52FF;
+  background-color: #090d7c;
   border: none;
   padding: 10px 30px;
   color: white;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -268,7 +268,7 @@ nav img{
 }
 
 .third-section-content button:hover{
-  background-color: #5CE1E6;
+  background-color: #ffd700;
   color: white;
   transition: all 0.3s ease;
 }
@@ -290,7 +290,7 @@ nav img{
   width: 100%;
   padding: 5% 5%;
   border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 20px rgba(9, 13, 123, 0.1);
   
 }
 
@@ -343,14 +343,14 @@ nav img{
 }
 
 .testimonial{
-  border: 1px solid #090d7c;
+  border: 1px solid rgb(9, 13, 123);
   padding: 3em 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  box-shadow: 0px 0px 100px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 100px rgba(9, 13, 123, 0.1);
   border-radius: 10px;
   width: 33%;
 }
@@ -361,6 +361,85 @@ nav img{
   gap: 20px;
   align-items: center;
 }
+
+.our-work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  padding: 6em 6em;
+}
+
+.our-work h2{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 0rem;
+  line-height: 120%;
+  text-align: center;
+}
+
+.our-work p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  text-align: center;
+  padding: 0 15%;
+  margin-bottom: 1em;
+}
+
+.our-work-content{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.our-work img{
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.our-work-content-image{
+  box-shadow: 0px 0px 100px rgba(9, 13, 123, 0.1);
+  border-radius: 10px;
+  padding: 1.4em;
+}
+
+.our-work-content-image p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+  text-align: start;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.our-work-content-image h3{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-align: start;
+  margin-bottom: 0.5em;
+  padding: 0;
+}
+
+.related-keywords{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.related-keywords p{
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
 
 .call-to-action{
   height: 70vh;
@@ -418,6 +497,71 @@ nav img{
   object-fit: cover;
 }
 
+.why-us{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  padding: 6em 6em;
+  background-color: #090d7c;
 
+}
 
+.why-us h2{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+  padding: 0 20%;
+}
 
+.why-us p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  color: #fff;
+}
+
+.why-us h3{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2em;
+  
+  color: #fff;
+}
+
+.why-us-content{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.why-us-content-icon{
+  display: flex;
+  flex-direction: column;
+  gap: 1.7em;
+}
+
+.why-us button{
+  background-color: #fff;
+  border: none;
+  padding: 10px 30px;
+  color: #090d7c;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
+.why-us button:hover{
+  background-color: #ffd700;
+  color: white;
+  transition: all 0.3s ease;
+}
