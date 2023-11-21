@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -711,7 +715,7 @@ footer a {
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180deg, rgba(9,13,124,0.8) 0%, rgba(9,13,124,0.8) 35%, rgba(9, 13, 124,0.4) 100%), url("../images/Hero-background.jpg");
+    background: linear-gradient(180deg, rgba(9,13,124,0.8) 0%, rgba(9,13,124,0.8) 35%, rgba(9, 13, 124,0.4) 100%), url("../images/background-overlay-mobile.jpg");
     background-size: cover;
   }
 
@@ -722,6 +726,7 @@ footer a {
 
   .hero-content{
     width: 100%;
+    gap: 0.7em;
   }
 
   nav{
@@ -739,6 +744,7 @@ footer a {
 
   .hero-content h1{
     font-size: 22px;
+    margin-bottom: 8px;
   }
 
   .hero-content p{
@@ -750,8 +756,13 @@ footer a {
     width: 100%;
   }
 
+  .fa-star{
+    font-size: 10px !important;
+  }
+
   .hero-contact-form-heading{
     padding: 15px 2em;
+    margin-bottom: 0;
   }
 
   .hero-contact-form-heading h2{
@@ -763,7 +774,7 @@ footer a {
   }
 
   .hero-contact-form form{
-    padding: 0em 1em;
+    padding: 0em 2em;
   }
 
   .third-section{
@@ -778,7 +789,7 @@ footer a {
   }
 
   .third-section-content h2{
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .third-section-content p{
@@ -808,12 +819,17 @@ footer a {
   }
 
   .testimonial-container{
-    padding: 4em 2em;
+    padding: 1em 1em;
     margin: 3em 0;
   }
 
   .testimonial-container h2{
-    font-size: 14px;
+    font-size: 20px;
+    margin-bottom: 0.6em;
+  }
+
+  .testimonial-container h3{
+    font-size: 12px;
   }
 
   .testimonial-container p{
@@ -830,20 +846,28 @@ footer a {
 
   .testimonial{
     width: 100%;
+    padding: 2em;
+  }
+
+  .testimonial img{
+    width: 50px;
+    height: 50px;
   }
 
   .our-work{
-    padding: 4em 2em;
+    padding: 3em 2em;
   }
 
   .why-us{
     padding: 4em 2em;
+    gap: 1.2em;
   }
 
   .why-us h2{
-    font-size: 14px;
+    font-size: 20px;
     padding: 0 2%;
     margin-bottom: 0;
+    margin-bottom: 14px;
   }
 
   .why-us-content-icon{
@@ -854,6 +878,10 @@ footer a {
     gap: 1em;
   }
 
+  .testimonial-content{
+    gap: 0.5em;
+  }
+
   .why-us-content{
     display: flex;
     flex-direction: column;
@@ -861,7 +889,7 @@ footer a {
   }
 
   .why-us h3{
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .why-us p{
@@ -872,9 +900,20 @@ footer a {
     font-size: 14px;
   }
 
+  .why-us button{
+    font-size: 13px;
+    padding: 7px 20px;
+  }
+
   .our-work p{
     font-size: 8px;
     padding: 0 5%;
+  }
+
+  .our-work-content{
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 1em;
   }
 
   .our-work h3{
@@ -900,6 +939,31 @@ footer a {
     padding: 2px 5px;
   }
 
+  .our-work{
+    gap: 1.3em;
+  }
+
+  .sticky-text button{
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+
+  .third-section-icon{
+    gap: 0.7em;
+  }
+
+  .third-section-icons{
+    gap: 1em;
+  }
+
+  .third-section{
+    margin: 1em 0;
+  }
+
+  .fa-solid{
+    font-size: 17px !important;
+  }
+
   footer{
     padding: 1em;
   }
@@ -916,7 +980,71 @@ footer a {
     text-align: center;
   }
 
+  .hero-contact-form input{
+    font-size: 8px;
+    
+    height: 40px;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+
+  .hero-contact-form textarea{
+    font-size: 8px;
+    
+  }
+
   .footer-bottom p{
     font-size: 8px;
   }
+
+  .hero-contact-form button{
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .hero-contact-form-button{
+    margin-top: 1em;
+  
+  }
+
+  .fa-regular{
+    font-size: 15px !important;
+  }
+
+  .hero-icon{
+    margin-bottom: 0.5em;
+  
+  }
+
+  .secured-text p{
+    font-size: 8px;
+  }
+
+  .hero-contact-form img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer-bottom a{
+    font-size: 8px;
+  }
+
+  .footer-bottom{
+    padding: 1em 0 0.2em 0;
+  }
+
+  .footer-logo{
+    padding: 0em;
+    margin-bottom: 0.5em;
+  }
+
+  footer{
+    padding: 2em 1em;
+  }
+
+  .footer-logo img{
+    width: 100px;
+    height: 28px;
+  }
+
 }
