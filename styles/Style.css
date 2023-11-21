@@ -715,6 +715,10 @@ footer a {
     background-size: cover;
   }
 
+  p {
+    font-size: 8px;
+  }
+
 
   .hero-content{
     width: 100%;
@@ -734,11 +738,11 @@ footer a {
   }
 
   .hero-content h1{
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .hero-content p{
-    font-size: 12px;
+    font-size: 8px;
     line-height: 180%;
   }
 
@@ -747,15 +751,15 @@ footer a {
   }
 
   .hero-contact-form-heading{
-    padding: 20px 2em;
+    padding: 15px 2em;
   }
 
   .hero-contact-form-heading h2{
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .hero-contact-form-heading p{
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .hero-contact-form form{
@@ -774,27 +778,27 @@ footer a {
   }
 
   .third-section-content h2{
-    font-size: 1.5rem;
+    font-size: 13px;
   }
 
   .third-section-content p{
-    font-size: 0.8rem;
+    font-size: 8px;
   }
 
   .third-section-icons p{
-    font-size: 0.8rem;
+    font-size: 8px;
   }
 
   .third-section-icon h3{
-    font-size: 1rem;
+    font-size: 11px;
   }
 
   .third-section-content button{
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .third-section-content h3{
-    font-size: 1rem;
+    font-size: 11px;
   }
 
 
@@ -809,11 +813,11 @@ footer a {
   }
 
   .testimonial-container h2{
-    font-size: 2rem;
+    font-size: 14px;
   }
 
   .testimonial-container p{
-    font-size: 1rem;
+    font-size: 8px;
   }
 
   .testimonials{
@@ -837,7 +841,7 @@ footer a {
   }
 
   .why-us h2{
-    font-size: 1.5rem;
+    font-size: 14px;
     padding: 0 2%;
     margin-bottom: 0;
   }
@@ -857,24 +861,24 @@ footer a {
   }
 
   .why-us h3{
-    font-size: 1.2rem;
+    font-size: 11px;
   }
 
   .why-us p{
-    font-size: 0.8rem;
+    font-size: 8px;
   }
 
   .our-work h2{
-    font-size: 1.5rem;
+    font-size: 14px;
   }
 
   .our-work p{
-    font-size: 0.8rem;
+    font-size: 8px;
     padding: 0 5%;
   }
 
   .our-work h3{
-    font-size: 1.2rem;
+    font-size: 11px;
     padding: 0 5%;
   }
 
@@ -892,7 +896,7 @@ footer a {
   }
 
   .related-keywords p{
-    font-size: 10px;
+    font-size: 8px;
     padding: 2px 5px;
   }
 
@@ -913,6 +917,6 @@ footer a {
   }
 
   .footer-bottom p{
-    font-size: 12px;
+    font-size: 8px;
   }
 }
